@@ -1,0 +1,4 @@
+/target
+src-tauri/node_modules
+excalidraw/node_modules
+.DS_Store
