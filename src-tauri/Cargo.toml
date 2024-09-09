@@ -1,7 +1,7 @@
 [package]
-name = "hn"
+name = "tauri-excalidraw"
 version = "0.0.0"
-description = "Hackers News Tauri App"
+description = "excalidraw desktop app"
 authors = ["you"]
 edition = "2021"
 

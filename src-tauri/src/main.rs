@@ -2,7 +2,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 use anyhow::Result;
-use hn::app;
+use tauri_excalidraw::app;
 
 fn main() -> Result<()> {
     app()?

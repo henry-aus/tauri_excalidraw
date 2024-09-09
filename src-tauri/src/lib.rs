@@ -43,8 +43,8 @@ fn setup(app: &mut App) -> Result<(), Box<dyn std::error::Error>> {
     #[cfg(desktop)]
     {
         builder = builder
-            .user_agent(&format!("Hn app - {}", std::env::consts::OS))
-            .title("Hacker News")
+            .user_agent(&format!("Tauri app - {}", std::env::consts::OS))
+            .title("Excalidraw")
             .inner_size(1200., 800.)
             .min_inner_size(800., 600.)
             .resizable(true)
